@@ -9,6 +9,9 @@
 <body>
   <div id="app">Loading...</div>
   <script>
+    // GitHub Pages detection
+    const isGitHubPages = location.hostname.includes('github.io');
+    
     window.$docsify = {
       loadSidebar: true,
       auto2top: true,
@@ -16,7 +19,11 @@
       subMaxLevel: 4,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
-      }
+      },
+      // GitHub Pages specific settings
+      fallbackLanguages: ['ja'],
+      notFoundPage: isGitHubPages,
+      catchPluginErrors: true
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
