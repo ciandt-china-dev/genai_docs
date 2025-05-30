@@ -5,16 +5,24 @@
 ## 文書構成
 
 ### プロジェクトアーキテクチャ
-システム全体の設計思想、構成要素、およびデータフローについて詳述します。
+- [システム全体設計](/docs/project_architecture/project_architecture.md)
 
-### 実装詳細
-OCR日本語処理の具体的な実装方法と技術的詳細について説明します。
+### プロジェクト文書
+#### ネットワーク
+- [DetectionNet](/docs/project%20code%20documentation/nets/detectionnet.md)
+- [ClassifierNet](/docs/project%20code%20documentation/nets/classifiernet.md)
+- [Block](/docs/project%20code%20documentation/nets/block.md)
 
-### ネットワーク
-ニューラルネットワークの各モジュール（DetectionNet、ClassifierNet、Block）の構造と機能について解説します。
+#### ユーティリティ
+- [Structure](/docs/project%20code%20documentation/misc/structure.md)
+- [Detection](/docs/project%20code%20documentation/misc/detection.md)
+- [NMS](/docs/project%20code%20documentation/misc/nms.md)
 
-### ユーティリティ
-システムを支援する各種ユーティリティ機能（Structure、Detection、NMS）について記載します。
+#### OCR日本語
+- [ocr_japanease](/docs/project%20code%20documentation/ocr_japanease.md)
+
+### プロジェクト原住所
+- [GitHubリポジトリ](https://github.com/tanreinama/OCR_Japanease)
 
 ---
 
