@@ -11,12 +11,11 @@
   <script>
     window.$docsify = {
       loadSidebar: true,
-      hideSidebar: false,
+      basePath: location.hostname === 'localhost' ? '' : '/genai_docs/',
       auto2top: true,
       maxLevel: 4,
       subMaxLevel: 2,
-      mergeNavbar: true,
-      executeScript: true
+      relativePath: true
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
