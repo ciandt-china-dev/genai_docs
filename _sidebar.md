@@ -13,3 +13,6 @@
     * [NMS](/docs/project%20code%20documentation/misc/nms.md) 
   
   * [ocr_japanease](/docs/project%20code%20documentation/ocr_japanease.md)
+
+* **プロジェクト原住所**
+  * [GitHubリポジトリ](https://github.com/tanreinama/OCR_Japanease)
