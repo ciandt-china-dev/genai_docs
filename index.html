@@ -1,23 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>My Docs</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>AIプロジェクト技術文書 - OCR_Japanease</title>
+  <meta name="description" content="AI OCR system technical documentation">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/prism.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Loading...</div>
   <script>
     window.$docsify = {
+      name: 'AIプロジェクト技術文書',
+      repo: 'https://github.com/ciandt-china-dev/genai_docs',
+      basePath: '/genai_docs/',
       loadSidebar: true,
       loadNavbar: true,
+      coverpage: true,
       auto2top: true,
-      coverpage: true
+      maxLevel: 4,
+      subMaxLevel: 3,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '検索...',
+        noData: '結果が見つかりません',
+        depth: 4
+      },
+      copyCode: {
+        buttonText: 'コピー',
+        errorText: 'エラー',
+        successText: 'コピーしました'
+      },
+      pagination: {
+        previousText: '前へ',
+        nextText: '次へ',
+        crossChapter: true,
+        crossChapterText: true
+      }
     }
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <!-- Mermaid support -->
   <script src="https://unpkg.com/docsify-mermaid@2/dist/docsify-mermaid.js"></script>
-  <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-  <script>mermaid.initialize({ startOnLoad: true });</script>
+  <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ 
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose'
+    });
+  </script>
 </body>
 </html>
