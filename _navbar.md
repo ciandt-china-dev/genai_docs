@@ -1,4 +1,0 @@
-- [🏠 ホーム](/)
-- [📚 技術文書](docs/)
-- [🔧 GitHub](https://github.com/ciandt-china-dev/genai_docs)
-- [📖 元プロジェクト](https://github.com/tanreinama/OCR_Japanease) 
