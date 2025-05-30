@@ -1,21 +1,15 @@
-- [ホーム](/)
+* **プロジェクトアーキテクチャ**
+  * [システム全体設計](docs/project_architecture/project_architecture.md)
 
-- **プロジェクトアーキテクチャ**
-  - [システム全体設計](/docs/project_architecture/project_architecture)
-
-- **実装詳細**
-  - [OCR日本語処理](/docs/project%20code%20documentation/ocr_japanease)
+* **実装詳細**
+  * [OCR日本語処理](docs/project%20code%20documentation/ocr_japanease.md)
   
-- **ネットワーク**
-  - [DetectionNet](/docs/project%20code%20documentation/nets/detectionnet)
-  - [ClassifierNet](/docs/project%20code%20documentation/nets/classifiernet)
-  - [Block](/docs/project%20code%20documentation/nets/block)
+* **ネットワーク**
+  * [DetectionNet](docs/project%20code%20documentation/nets/detectionnet.md)
+  * [ClassifierNet](docs/project%20code%20documentation/nets/classifiernet.md)
+  * [Block](docs/project%20code%20documentation/nets/block.md)
   
-- **ユーティリティ**
-  - [Structure](/docs/project%20code%20documentation/misc/structure)
-  - [Detection](/docs/project%20code%20documentation/misc/detection)
-  - [NMS](/docs/project%20code%20documentation/misc/nms)
-
-- **プロジェクトリンク**
-  - [GitHub リポジトリ](https://github.com/ciandt-china-dev/genai_docs)
-  - [元プロジェクト](https://github.com/tanreinama/OCR_Japanease) 
+* **ユーティリティ**
+  * [Structure](docs/project%20code%20documentation/misc/structure.md)
+  * [Detection](docs/project%20code%20documentation/misc/detection.md)
+  * [NMS](docs/project%20code%20documentation/misc/nms.md) 
